@@ -7,13 +7,16 @@ env_file.txt
 __pycache__/
 *.py[cod]
 *$py.class
-venv/
-.venv/
+venv
+backend/venv
+.venv
+backend/venv
 *.db
 *.sqlite3
 
 # Node / Frontend
-node_modules/
+node_modules
+frontend/node_modules
 dist/
 .vite/
 npm-debug.log*
